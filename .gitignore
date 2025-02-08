@@ -398,3 +398,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Contoso.bak
+/Data Dictionary of Contoso BI demo dataset for Retail Industry.xlsx
