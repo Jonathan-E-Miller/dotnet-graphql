@@ -6,6 +6,8 @@ namespace Repository;
 public class ContosoDbContext : DbContext
 {
     public DbSet<DimProduct> DimProducts { get; set; }
+    public DbSet<DimStore> DimStores { get; set; }
+    public DbSet<FactSales> FactSales { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
