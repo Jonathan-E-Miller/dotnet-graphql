@@ -1,3 +1,4 @@
+using GraphQL.Queries;
 using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ContosoDbContext>();
 
+builder.Services
+    .AddGraphQLServer()
+    .RegisterDbContextFactory<ContosoDbContext>()
+    .AddQueryType<Query>();
+
 var app = builder.Build();
+app.MapGraphQL();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
