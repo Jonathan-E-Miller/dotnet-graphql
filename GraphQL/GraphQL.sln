@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL", "GraphQL.csproj", "{1E714B29-7CA4-4C99-9832-70CB2B0BBF2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL", "GraphQL.csproj", "{1E714B29-7CA4-4C99-9832-70CB2B0BBF2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{427645F2-8DBA-4CFF-B614-C6A184A5D42D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository\Repository.csproj", "{427645F2-8DBA-4CFF-B614-C6A184A5D42D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Contoso", "..\Contoso\Contoso.sqlproj", "{821D9792-481D-4093-8A0C-46027465BD3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{427645F2-8DBA-4CFF-B614-C6A184A5D42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427645F2-8DBA-4CFF-B614-C6A184A5D42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427645F2-8DBA-4CFF-B614-C6A184A5D42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821D9792-481D-4093-8A0C-46027465BD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821D9792-481D-4093-8A0C-46027465BD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821D9792-481D-4093-8A0C-46027465BD3A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{821D9792-481D-4093-8A0C-46027465BD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821D9792-481D-4093-8A0C-46027465BD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821D9792-481D-4093-8A0C-46027465BD3A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
